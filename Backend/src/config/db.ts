@@ -5,7 +5,7 @@ exports.connectDatabase = () =>{
         .then((con)=>{
             console.log(`MongoDB database connected with HOST: ${con.connection.host}`);
         })
-        .catch((err)=>{
+        .catch((err: Error)=>{
             console.log(`MongoDB database connection error: ${err}`);
         })
 }
