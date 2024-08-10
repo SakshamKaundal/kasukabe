@@ -26,7 +26,11 @@
 
     /* Modules */
     "module": "commonjs",                                /* Specify what module code is generated. */
+<<<<<<< HEAD
     "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+=======
+     "rootDir": "./src",                                  /* Specify the root folder within your source files. */
+>>>>>>> 8722be4155dfefe7896afbecf4168c9b2878b1c8
     // "moduleResolution": "node10",                     /* Specify how TypeScript looks up a file from a given module specifier. */
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
@@ -55,7 +59,7 @@
     // "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
     // "inlineSourceMap": true,                          /* Include sourcemap files inside the emitted JavaScript. */
     // "outFile": "./",                                  /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
-    "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
+     "outDir": "./dist",                                   /* Specify an output folder for all emitted files. */
     // "removeComments": true,                           /* Disable emitting comments. */
     // "noEmit": true,                                   /* Disable emitting files from a compilation. */
     // "importHelpers": true,                            /* Allow importing helper functions from tslib once per project, instead of including them per-file. */
@@ -83,7 +87,11 @@
 
     /* Type Checking */
     "strict": true,                                      /* Enable all strict type-checking options. */
+<<<<<<< HEAD
     // "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+=======
+     "noImplicitAny": true,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+>>>>>>> 8722be4155dfefe7896afbecf4168c9b2878b1c8
     // "strictNullChecks": true,                         /* When type checking, take into account 'null' and 'undefined'. */
     // "strictFunctionTypes": true,                      /* When assigning functions, check to ensure parameters and the return values are subtype-compatible. */
     // "strictBindCallApply": true,                      /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
